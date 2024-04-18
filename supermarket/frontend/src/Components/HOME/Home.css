@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.homepage{
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(5, 5, 86);
+}
+.hnav{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+.hnavname{
+    font-size: 7vh;
+    color: rgb(186, 12, 12);
+    padding-right: 40rem;
+}
+.habout{
+    font-size: 4vh;
+    color: rgb(222, 31, 31);
+}
+.qt{
+    height: 20vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3vw;
+    margin-left: 3vw;
+
+}
+.hbody{
+    height: 170vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    border-color: rgb(16, 5, 114);
+    background-color: rgb(26, 26, 166);
+}
+.hframe{
+    height: 40vh;
+    width: 60vw;
+    border-radius: 40px;
+    background-image: url("http://source.unsplash.com/1300x300/?shopping,ecommerce");
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.hproducts{
+    height: 100vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.allpro{
+    height: 10vh;
+    width: 70vw;
+    font-size: 7vh;
+    margin-top: 5vh;
+    margin-left: 4vw;
+    color: yellow;
+}
+.hallpro{
+    height: 90vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-evenly;
+
+    align-self: start;
+
+}
+.productItem{
+    height: 20vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+    align-items: center;
+    background-color: azure;
+
+}
+.pi{
+height: 4vh;
+width: 20vw;
+font-size: 3vh;
+
+/* text-align: center; */
+}
+.hcheck{
+    height: 10vh;
+    width: 40vw;
+    border-radius: 80px;
+    font-size: 7vh;
+    background-color: rgb(43, 198, 226);
+    color: rgb(25, 5, 87);
+}
+.hcheck:hover{
+    height: 10vh;
+    width: 40vw;
+    border-radius: 80px;
+    font-size: 7vh;
+    color: rgb(43, 198, 226);
+    background-color: rgb(25, 5, 87);
+}
+.hfooter{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    background-color: rgb(22, 4, 75);
+}

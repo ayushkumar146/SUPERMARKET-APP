@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainproduct{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pc{
+    height: 70vh;
+    width: 40vw;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+}
+.pic{
+    height: 30vh;
+    width: 30vw;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9CKEvdZF6t9sJmKuif7eBt1wvsNFZ_E0D9JKUxSDNXw&s");
+    background-size: cover;
+}
+.op{
+    height: 4vh;
+    width: 40vw;
+    font-size: 3vh;
+    text-align: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    color: yellow;
+}
+.op input[type=text]{
+    height: 3vh;
+    width: 20vw;
+    text-align: center;
+    font-size: 3vh;
+    background-color: inherit;
+    color: yellow;
+}
+.prona{
+    height: 10vh;
+    width: 40vw;
+    font-size: 7vh;
+}
+.proupd{
+    height: 10vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.proupd button{
+    height: 5vh;
+    width: 30vw;
+    font-size: 3vh;
+    border-radius: 80px;
+    background-color: brown;
+    color: yellow;
+}
+.proupd button:hover{
+    height: 5vh;
+    width: 30vw;
+    font-size: 3vh;
+    border-radius: 80px;
+    color: brown;
+    background-color: yellow;
+}

@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.managerpage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.managernav{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mt{
+    font-size: 8vh;
+}
+.managerbody{
+    height: 70vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.createpro{
+    height: 30vh;
+    width: 80vw;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.order{
+    height: 30vh;
+    width: 80vw;
+    /* background-color: rgb(2, 1, 13); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.order button{
+    height: 10vh;
+    width: 40vw;
+    font-size: 8vh;
+    border-radius: 80px;
+    z-index: 10vh;
+    color: blue;
+    background-color: orangered;
+}
+.order button:hover{
+    height: 10vh;
+    width: 40vw;
+    font-size: 8vh;
+    border-radius: 80px;
+    background-color: blue;
+    color: orangered;
+}
+.searchpro{
+    height: 30vh;
+    width: 80vw;
+    background-color: rgb(92, 73, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.search{
+    height: 30vh;
+    width: 80vw;
+    /* background-color: rgb(2, 1, 13); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.search button{
+    height: 10vh;
+    width: 40vw;
+    font-size: 8vh;
+    border-radius: 80px;
+    z-index: 10vh;
+    color: blue;
+    background-color: orangered;
+}
+.search button:hover{
+    height: 10vh;
+    width: 40vw;
+    font-size: 8vh;
+    border-radius: 80px;
+    background-color: blue;
+    color: orangered;
+}
+
+.managerfoot{
+    height: 20vh;
+    width: 100vw;
+}
